@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.header-top {
+  height: 12rem;
+  background-color: #2C9AB7;
+  color: white;
+}
+.header-text {
+  position: relative;
+  top: 4rem;
+  left: 6rem;
+}
+nav {
+  height: 4rem;
+  background-color: #EBEBEB;
+  font-size: 1.5rem;
+  color: #393939;
+}
+nav a:link, a:visited {
+  color: #393939;
+  text-decoration: none;
+}
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
