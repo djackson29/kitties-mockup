@@ -93,7 +93,13 @@ article {
 }
 footer {
   background-color: #393939;
+  height: 18rem;
   color: white;
   text-align: center;
   clear: both;
+}
+.footer-content {
+  position: relative;
+  top: 1.75rem;
+  line-height: 1.5rem;
 }
