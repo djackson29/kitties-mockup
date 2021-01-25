@@ -10,11 +10,9 @@
   top: 4rem;
   left: 6rem;
 }
-.tagline {
+#tagline {
   font-style: italic;
   font-size: 1.5rem;
-  position: relative;
-  bottom: 2.5rem;
 }
 nav {
   height: 5rem;
@@ -46,6 +44,10 @@ nav a:link, a:visited {
 nav a:hover {
   color: #217187;
   text-decoration: underline;
+}
+.this-page {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 h1 {
   font-size: 3rem;
