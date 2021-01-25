@@ -16,18 +16,6 @@
   position: relative;
   bottom: 2.5rem;
 }
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 1.75rem;
-}
-h3 {
-  font-size: 1.25rem;
-}
-body {
-  font-family: Helvetica, sans-serif;
-}
 nav {
   height: 5rem;
   background-color: #EBEBEB;
@@ -59,6 +47,31 @@ nav a:hover {
   color: #217187;
   text-decoration: underline;
 }
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  color: #393939;
+  line-height: 2rem;
+}
+article {
+  padding-bottom: 1rem;
+}
+.testimonial {
+  font-size: 1.5rem;
+  color: #217187;
+  font-style: italic;
+}
+.customer-review h3 {
+  color: #217187;
+}
 .clearfix a {
   color: #217187;
   text-decoration: underline;
@@ -76,6 +89,7 @@ nav a:hover {
   float: right;
   padding-left: 3rem;
   width: 35%;
+  padding-bottom: 2rem;
 }
 footer {
   background-color: #393939;
