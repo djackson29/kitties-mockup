@@ -15,17 +15,19 @@ nav {
   background-color: #EBEBEB;
   font-size: 1.5rem;
   color: #393939;
+  position:static;
 }
 nav ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  padding-left: 6rem;
+  position: absolute;
+  left: 4rem;
 }
 nav li {
   float: left;
   display: block;
-  padding-top: 1.5rem;
+  padding-top: 1.75rem;
   padding-right: 1rem;
 }
 nav a {
@@ -39,32 +41,27 @@ nav a:hover {
   color: #217187;
   text-decoration: underline;
 }
-.main-article a {
+.clearfix a {
   color: #217187;
   text-decoration: underline;
 }
-.main-article a:hover {
+.clearfix a:hover {
   color: #217187;
   text-decoration: none;
+}
+.clearfix {
+  padding-top: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 .cat-news {
   float: right;
-}
-.cat-news a {
-  color: #217187;
-  text-decoration: underline;
-}
-.cat-news a:hover {
-  color: #217187;
-  text-decoration: none;
-}
-.clearfix::after {
-  content:"";
-  display: block;
-  clear: both;
+  padding-left: 2rem;
+  width: 35%;
 }
 footer {
   background-color: #393939;
   color: white;
   text-align: center;
+  clear: both;
 }
