@@ -35,7 +35,8 @@ nav li {
   padding-right: 1rem;
 }
 nav a {
-  padding-right: .5rem;
+  padding: 1rem;
+  margin: .5rem;
 }
 nav a:link, a:visited {
   color: #393939;
@@ -46,7 +47,6 @@ nav a:hover {
   text-decoration: underline;
 }
 .this-page {
-  border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
 h1 {
@@ -104,4 +104,24 @@ footer {
   position: relative;
   top: 1.75rem;
   line-height: 1.5rem;
+}
+
+/* a11y features */
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
+.sr-only {
+  position: relative;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
